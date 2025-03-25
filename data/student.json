@@ -1,0 +1,34 @@
+{
+  "students": [
+    {
+      "mssv": 22118095,
+      "name": "Quốc Bảo",
+      "email": "bao@gmail.com",
+      "id": "0531"
+    },
+    {
+      "mssv": 22118006,
+      "name": "Đăng An",
+      "email": "An@gmail.com",
+      "id": "a3d4"
+    },
+    {
+      "id": "912d",
+      "mssv": 10872593,
+      "name": "Ích Chuyên",
+      "email": "chuyen@gmail.com"
+    },
+    {
+      "id": "f878",
+      "mssv": 79015953,
+      "name": "Minh Khôi",
+      "email": "khoi@gmail.com"
+    },
+    {
+      "id": "7d6f",
+      "mssv": 41666481,
+      "name": "Đăng Minh",
+      "email": "minh@gmail"
+    }
+  ]
+}

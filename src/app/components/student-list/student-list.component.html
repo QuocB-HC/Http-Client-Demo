@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Quản lý Sinh Viên</h2>
+
+    <!-- Form thêm sinh viên -->
+    <input [(ngModel)]="newStudentName" placeholder="Nhập tên sinh viên" class="input-field" (keydown.enter)="addStudent()" />
+    <input [(ngModel)]="newStudentEmail" placeholder="Nhập email sinh viên" class="input-field" (keydown.enter)="addStudent()" />
+    <button (click)="addStudent()">Thêm</button>
+
+    <h1>Danh sách sinh viên</h1>
+    <!-- Danh sách sinh viên -->
+    <table class="table">
+        <tr class="table-header">
+            <th>MSSV</th>
+            <th>Tên</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let student of students">
+            <td>{{ student.mssv }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.email }}</td>
+            <td><button (click)="deleteStudent(student.id)">❌</button></td>
+        </tr>
+    </table>
+</div>
